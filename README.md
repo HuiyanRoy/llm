@@ -8,7 +8,7 @@ Unless otherwise specified, all instructions are designed for **MacBook Pro M1 M
 - **32-core GPU**  
 
 ## Contents  
-- [Model Configuration](#model-configuration)  
+- [Model-Installation](#model-installation)  
 - [Fine-Tuning](#fine-tuning)  
 - [Performance Optimization](#performance-optimization)  
 - [Use Cases & Applications](#use-cases--applications)  
@@ -17,7 +17,7 @@ Unless otherwise specified, all instructions are designed for **MacBook Pro M1 M
 
 ## Getting Started  
 
-Model Configuration
+Model Installation
 
     IBM Granite
     Hugging Face Transformers
