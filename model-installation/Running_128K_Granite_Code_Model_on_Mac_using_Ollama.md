@@ -28,7 +28,7 @@ ollama run granite-code:3b
 ## 4. Chat with the Model
 Once the model is running, you can start chatting:
 ```sh
->>> could you please create C++ code implementing QuickSort algorithm?
+>>> could you please create C++ code implementing QuickSort algorithm
 ```
 Example response:
 ```cpp
@@ -55,7 +55,7 @@ ollama list
 ```sh
 ollama show granite-code:3b
 ```
-It gave me this output
+Output
 ```sh
 Model
     architecture        llama     
