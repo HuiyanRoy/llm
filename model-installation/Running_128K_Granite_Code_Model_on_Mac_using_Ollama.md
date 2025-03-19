@@ -18,8 +18,8 @@ Now, you should be able to run:
 ollama serve
 ```
 
-## 3. In a new console window, download and Deploy LLM Models
-You can download and run **IBM Granite models**, such as **granite-code:3b** or **granite-code:8b**, which support **128K context window**:
+## 3. Download and Deploy LLM Models
+In a new console window, download and run **IBM Granite models**, such as **granite-code:3b** or **granite-code:8b**, which support **128K context window**:
 ```sh
 ollama run granite-code:3b
 ```
