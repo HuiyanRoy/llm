@@ -20,6 +20,7 @@ ollama serve
 
 ## 3. Download and Deploy LLM Models
 In a new console window, download and run **IBM Granite models**, such as **granite-code:3b** or **granite3.2:8b**, which support **128K context window**.
+
 Granite-code models are designed for code related tasks. 
 ```sh
 ollama run granite-code:3b
@@ -29,7 +30,8 @@ Use the following command to download and run the newest Granite 3.2 model of 8 
 ```sh
 ollama run granite3.2:8b
 ```
-⚠️ **Note:** Attempt of deploying **granite-34b** models ran into Out of Memory (OOM) errors on a MacBook Pro M1 Max (10-core CPU, 24/32-core GPU, 32GB memory). 
+**Note 1:** The models that will be pulled by ollama are typically the 4 bit quantized versions. By default, Ollama uses 4-bit quantization to reduce memory usage and improve performance on consumer hardware. 
+**Note 2:** Attempt of deploying **granite-34b** models ran into Out of Memory (OOM) errors on a MacBook Pro M1 Max (10-core CPU, 24/32-core GPU, 32GB memory). 
 
 ## 4. Chat with the Model
 Once the model is running, you can start chatting:
@@ -38,13 +40,13 @@ Once the model is running, you can start chatting:
 ```
 Example response:
 ```cpp
-Sure! Here's an example C++ code that implements QuickSort:
+Sure! Here is an example C++ code that implements QuickSort:
 ...
 ```
 
 ## 5. Running Other Models
 
-To pull and use different models, such as **Mistral**:
+To pull and use other models, such as **Mistral**:
 ```sh
 ollama pull mistral
 ```
