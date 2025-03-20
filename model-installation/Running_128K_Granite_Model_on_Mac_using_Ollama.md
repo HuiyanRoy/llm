@@ -19,11 +19,17 @@ ollama serve
 ```
 
 ## 3. Download and Deploy LLM Models
-In a new console window, download and run **IBM Granite models**, such as **granite-code:3b** or **granite-code:8b**, which support **128K context window**:
+In a new console window, download and run **IBM Granite models**, such as **granite-code:3b** or **granite3.2:8b**, which support **128K context window**.
+Granite-code models are designed for code related tasks. 
 ```sh
 ollama run granite-code:3b
 ```
-⚠️ **Note:** Attempt of deploying **granite-34b** models ran into **Out of Memory (OOM) errors** on a **MacBook Pro M1 Max (10-core CPU, 24/32-core GPU, 32GB memory).** 
+
+Use the following command to download and run the newest Granite 3.2 model of 8 billion parameters, which is designed for a broader range of tasks beyond coding.
+```sh
+ollama run granite3.2:8b
+```
+⚠️ **Note:** Attempt of deploying **granite-34b** models ran into Out of Memory (OOM) errors on a MacBook Pro M1 Max (10-core CPU, 24/32-core GPU, 32GB memory). 
 
 ## 4. Chat with the Model
 Once the model is running, you can start chatting:
@@ -37,10 +43,12 @@ Sure! Here's an example C++ code that implements QuickSort:
 ```
 
 ## 5. Running Other Models
+
 To pull and use different models, such as **Mistral**:
 ```sh
 ollama pull mistral
 ```
+
 Other available models:
 - **Llama 2** (7B, 13B, 70B)
 - **Gemma**
@@ -50,8 +58,18 @@ Other available models:
 ```sh
 ollama list
 ```
+Output
 
-## 7. Check the metadata of the granite 3b code model that you just installed
+```sh
+NAME               ID              SIZE      MODIFIED       
+granite3.2:8b      9bcb3335083f    4.9 GB    14 minutes ago    
+mistral:latest     f974a74358d6    4.1 GB    8 days ago        
+granite-code:3b    becc94fe1876    2.0 GB    8 days ago   
+```
+
+## 7. Check the metadata of the models that you just installed to verify the context length is larger than 128000
+
+Check the metadata of granite-code:3b model:
 ```sh
 ollama show granite-code:3b
 ```
@@ -72,6 +90,26 @@ Model
   License
     Apache License               
     Version 2.0, January 2004 
+```
+
+Check the metadata of the granite3.2:8b model:
+
+```sh
+ollama show granite3.2:8b  
+```
+Output 
+```sh
+  Model
+    architecture        granite    
+    parameters          8.2B       
+    context length      131072     
+    embedding length    4096       
+    quantization        Q4_K_M     
+
+  License
+    Apache License               
+    Version 2.0, January 2004    
+
 ```
 
 ## 8. Exit
