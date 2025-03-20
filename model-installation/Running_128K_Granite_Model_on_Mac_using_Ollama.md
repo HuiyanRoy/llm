@@ -1,5 +1,6 @@
 # Running a Local Granite Code model with 128K context length on MacBook using Ollama
 
+This guide helps developers and AI practitioners effectively run **LLMs locally on a MacBook** while leveraging **IBM Granite** and other open-source models.
 There are different ways to host a local LLM, such as using **ilab** or **Ollama**. If you want to benefit from a **larger context window (e.g., 128K)**, this guide shows how to do it using **Ollama**.
 
 ## 1. Install Ollama
@@ -125,6 +126,3 @@ To exit the chat session, type:
 ✅ **Larger Context Window** – Supports up to **128K tokens** for better conversation continuity.  
 ✅ **Flexible Model Options** – Test and compare different LLMs for performance and output quality.  
 
----
-
-This guide helps developers and AI practitioners effectively run **LLMs locally on a MacBook** while leveraging **IBM Granite** and other open-source models. 🚀
