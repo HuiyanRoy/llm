@@ -13,13 +13,13 @@ You can easily run the model locally using [`llama.cpp`](https://github.com/gger
 ```bash
 brew install llama.cpp
 ```
-### 2. Pick your desired model variant and start the server
+### 2. Pick your desired model variant and run
 
 ⚙️ Full Precision (FP16) Version:
 ```bash
 llama-server -hf mrutkows/granite-4.0-tiny-preview-GGUF:F16
 ```
-⚙️ 4-bit Quantized Version (Q4_K_M):
+⚙️ 4-bit Quantized (eg. Q4_K_M):
 ```bash
 llama-server -hf mrutkows/granite-4.0-tiny-preview-GGUF:Q4_K_M
 ```
@@ -36,10 +36,16 @@ Open your browser and go to:
 http://127.0.0.1:8080
 ```
 
-### Optional: Monitor Resource Usage (Mac)
+## Monitoring Resource Usage on macOS
+If you want to track the system impact:
 
-To monitor system performance, go to Applications → Utilities → Activity Monitor
+1. Open **Applications**
+2. Go to **Utilities**
+3. Launch **Activity Monitor**
 
-Explore other variants of Granite 4.0 Tiny at Hugging Face
+This will let you view CPU, memory, and GPU usage in real time.
+
+## Explore Other Model Variants
+You can find additional quantized versions and configurations of **Granite 4.0 Tiny (Preview)** on Hugging Face:
 https://huggingface.co/mrutkows/granite-4.0-tiny-preview-GGUF/tree/main
 
