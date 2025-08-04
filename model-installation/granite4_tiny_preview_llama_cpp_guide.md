@@ -1,7 +1,7 @@
 
 # Granite 4.0 Tiny + llama.cpp on MacBook: Quickstart Guide
 
-IBM's Granite 4.0 Tiny(Preview) version is a ** MoE (Mixture of Experts)** model, utilizing ** Mamba-2 / Transformer Hybrid Architecture**, offering exceptional memory efficiency — **up to 72% less memory** usage compared to Granite 3.3!
+IBM's Granite 4.0 Tiny(Preview) version is a MoE (Mixture of Experts) model, utilizing Mamba-2 / Transformer Hybrid Architecture, offering exceptional memory efficiency — **up to 72% less memory** usage compared to Granite 3.3!
 Read more in IBM's official [page](https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek).
 
 ## Getting Started with `llama.cpp`
