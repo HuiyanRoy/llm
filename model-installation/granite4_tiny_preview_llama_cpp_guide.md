@@ -46,10 +46,11 @@ If you want to track the system impact:
 This will let you view CPU, memory, and GPU usage in real time.
 
 ## Explore Other Model Variants
-You can find additional quantized versions and configurations of **Granite 4.0 Tiny (Preview)** on Hugging Face:
+You can find a full list of different Granite 4.0 Tiny preview versions in GGUF format here:
 https://huggingface.co/mrutkows/granite-4.0-tiny-preview-GGUF/tree/main
 
 Safetensors are available here:
 https://huggingface.co/ibm-granite/granite-4.0-tiny-preview/tree/main
+
 
 
