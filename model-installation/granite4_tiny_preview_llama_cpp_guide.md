@@ -49,3 +49,7 @@ This will let you view CPU, memory, and GPU usage in real time.
 You can find additional quantized versions and configurations of **Granite 4.0 Tiny (Preview)** on Hugging Face:
 https://huggingface.co/mrutkows/granite-4.0-tiny-preview-GGUF/tree/main
 
+Safetensors are available here:
+https://huggingface.co/ibm-granite/granite-4.0-tiny-preview/tree/main
+
+
