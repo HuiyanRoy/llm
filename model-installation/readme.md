@@ -9,7 +9,7 @@ IBM’s Granite models are a powerful family of LLMs designed for tasks like cod
 
 But where do you start if you want to try it out locally?
 
-## Why Mac + Ollama or Llama.cpp etc.?
+## Why Mac + Ollama / Llama.cpp etc.?
 A lot of LLM tooling is Linux-first or cloud-focused, but Mac users deserve some local LLM love too! With Ollama, llama.cpp etc, running LLMs natively on macOS becomes surprisingly seamless.
 - fast setup
 - good performance
