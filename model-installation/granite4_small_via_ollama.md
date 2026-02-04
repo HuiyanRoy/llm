@@ -36,12 +36,12 @@ ollama run granite4:micro-h
 - **Note 1:** The models that will be pulled by ollama are typically the 4 bit quantized versions. By default, Ollama uses 4-bit quantization Q4_K_M to reduce memory usage and improve performance on consumer hardware. 
 - **Note 2:** Attempt of deploying **granite3 34b models** ran into Out of Memory (OOM) errors on a MacBook Pro M1 Max (10-core CPU, 24/32-core GPU, 32GB memory). 
 
-In case you get errors in ollama serve window like the following
+In case you get errors in ollama serve window like:
 ```sh
 llama_model_load: error loading model: error loading model architecture: unknown model architecture: 'granitehybrid'
 llama_model_load_from_file_impl: failed to load model
 ```
-This could indicate that your ollama version is too old. Refresh ollama
+this could indicate that your ollama version is too old. Refresh ollama via brew install
 ```sh
 brew install ollama
 ```
@@ -52,11 +52,8 @@ Once the model is running, you can start chatting:
 >>> tell me about who you are
 ```
 Example response:
-```cpp
-I am an artificial intelligence developed by IBM to assist businesses in deriving insights from their data, facilitating decision-making processes. My primary function is to 
-support various tasks such as answering questions, providing recommendations based on patterns identified in large volumes of data, and helping with problem-solving.
-Unlike some other AI systems designed for general use or entertainment purposes, I am specifically tailored towards ...
-...
+```sh
+I am an artificial intelligence developed by IBM to assist businesses in deriving insights from their data, facilitating decision-making processes. My primary function is to ...
 ```
 
 ## 5. Listing downloaded models
