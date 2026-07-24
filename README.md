@@ -10,8 +10,6 @@ Unless otherwise specified, all instructions are designed for **MacBook Pro M1 M
 ## Contents  
 - [Model-Installation](#model-installation)  
 - [Fine-Tuning](#fine-tuning)  
-- [Performance Optimization](#performance-optimization)  
-- [Use Cases & Applications](#use-cases--applications)  
 - [Resources](#resources)  
 - [Contributing](#contributing)  
 
@@ -21,25 +19,14 @@ Model Installation
 
     IBM Granite
     Hugging Face Transformers
-    Llama, Falcon, Mistral setup
+    Ollama, Llama.cpp runtime environment
 
 Fine-Tuning
 
-    Using InstructLab for fine-tuning 
+    LoRA fine-tuning 
+    InstructLab fine-tuning
     Data preprocessing
     Hyperparameter tuning
-
-Performance Optimization
-
-    Running on Apple M1 GPU
-    Mixed precision (fp16/bf16) and quantized models
-    Memory optimization strategies
-
-Use Cases & Applications
-
-    Code generation
-    Natural language understanding (NLU)
-    Chatbots & AI assistants
 
 Resources
 
