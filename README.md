@@ -11,7 +11,7 @@ Unless otherwise specified, all instructions are designed for **MacBook Pro M1 M
 - [Model-Installation](#model-installation)  
 - [Fine-Tuning](#fine-tuning)  
 - [Resources](#resources)  
-- [Contributing](#contributing)  
+
 
 ## Getting Started  
 
