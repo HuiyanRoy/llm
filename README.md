@@ -25,8 +25,6 @@ Fine-Tuning
 
     LoRA fine-tuning 
     InstructLab fine-tuning
-    Data preprocessing
-    Hyperparameter tuning
 
 Resources
 
